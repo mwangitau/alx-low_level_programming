@@ -1,6 +1,6 @@
 /*
  * File: 4-puts.c
- * Auth: John Mwangi <mwangijohn@gmail.com>
+ * Auth: John Mwangi <mwangijohngitau1@gmail.com>
  */
 
 #include <stdio.h>
