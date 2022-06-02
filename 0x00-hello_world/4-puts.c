@@ -2,7 +2,7 @@
  *
  *  * File: 4-puts.c
  *
- *   * Author: John Mwangi <mwangijohngitau1@gmail.com>
+ *   * Auth: John G Mwangi <mwangijohngitau1.com>
  *
  *    */
 
