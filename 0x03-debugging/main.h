@@ -4,4 +4,4 @@
 
 void positive_or_negative(int i);
 
-#endif /*main .h*/
+#endif /* MAIN_H*/
