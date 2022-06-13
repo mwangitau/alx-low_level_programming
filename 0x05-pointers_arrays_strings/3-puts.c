@@ -9,10 +9,10 @@
  */
 void _puts(char *str)
 {
-	int i;
+	char *str;
 
-	for (i = 0; str[i] != '\0'; i++)
-		_putchar(str[i]);
+	str = "I do not fear computers. I fear the lack of them - Isaac Asimov";
+	_puts(str);
 
-	_putchar('\n');
+	return (0);
 }
