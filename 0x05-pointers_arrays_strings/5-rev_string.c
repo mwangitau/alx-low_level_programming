@@ -2,29 +2,25 @@
 #include "main.h"
 
 /**
- * rev_string - update value.
+ * rev_string - reverses a string
  * @s: value to be evaluated.
  * Return: not.
  */
 void rev_string(char *s)
 {
-	int len = 0;
-	int l = 0;
-	char *y = str;
-	int z;
+	int i = 0, j = 0;
+	char str[500];
 
-	while (*y != '\0')
+	while (*(s + i))
 	{
-		y++;
-		len++;
+		*(str + i) = *(s + i);
+		i++;
 	}
-	l = len - 1;
-	for (z = 0 ; z <= l ; z++)
+	i = i - 1;
+	while (i >= 0)
 	{
-		if (z % 2 == 0)
-		{
-			_putchar(str[z]);
-		}
+		*(s + i) = *(str + j);
+		j++;
+		i--;
 	}
-	_putchar('\n');
 }
