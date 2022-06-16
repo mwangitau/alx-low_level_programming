@@ -1,11 +1,12 @@
-#inlcude "main.h"
+#include "main.h"
+
 /**
- *  _strncpy - cpoies n bytes of src to the dest string
- * @dest: string to append by src
- * @src: string to append to dest
- * @n: largest number of bytes to append
+ * _strncpy - Copies at most an inputted number
+ * @dest: The buffer storing the string copy.
+ * @src: The source string
+ * @n: The maximum number of bytes to copied from src.
  *
- * Return: address of dest
+ * Return: A pointer to the resulting string dest.
  */
 char *_strncpy(char *dest, char *src, int n)
 {
