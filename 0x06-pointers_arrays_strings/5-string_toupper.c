@@ -13,8 +13,8 @@ char *string_toupper(char *x)
 	while (*(x + l))
 	{
 		if (*(x + l) >= 'a' && *(x + l) <= 'z')
-			*(x + l) -= 'a' - 'A';
-		i++;
+			*(x + l) -= 32;
+		l++;
 	}
 	return (x);
 }
