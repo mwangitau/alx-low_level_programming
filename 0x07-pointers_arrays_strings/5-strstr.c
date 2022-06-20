@@ -11,7 +11,7 @@ char *_strstr(char *haystack, char *needle)
 {
 	unsigned int x = 0, y = 0;
 
-	while (haystac[x])
+	while (haystack[x])
 	{
 		while (needle[y] && (haystack[x] == needle[0]))
 		{
