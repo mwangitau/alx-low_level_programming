@@ -29,7 +29,7 @@ int check_palindrome(int q, int r, char *t)
 	else if (t[q] != t[r])
 		return (0);
 	else
-		return (check_palindrome(q + q, r - q, t));
+		return (check_palindrome(q + 1, r - 1, t));
 }
 
 /**
