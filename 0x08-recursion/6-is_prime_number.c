@@ -14,7 +14,7 @@ int prime_check(int s, int t)
 	else if (s > t / 2)
 		return (1);
 	else
-		return (prime_check(f + 1, p));
+		return (prime_check(s + 1, t));
 }
 
 /**
