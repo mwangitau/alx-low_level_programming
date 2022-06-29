@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <ctype.h>
 
-i/**
+/**
  * main - adds numbers
  * @argc: number of arguments passed to the function
  * @argv: array of pointers to the strings which are those arguments
