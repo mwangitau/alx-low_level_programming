@@ -11,7 +11,7 @@
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
-	int x = 0, y, z;
+	int x = 0, y = 0, z;
 	dog_t *cigi;
 
 	while (name[x] != '\0')
