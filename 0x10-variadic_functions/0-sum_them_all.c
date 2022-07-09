@@ -1,5 +1,5 @@
-#include <stdarg.h>
 #include <stdio.h>
+#include <stdarg.h>
 
 /**
  * sum_them_all - sums of all its parameters.
