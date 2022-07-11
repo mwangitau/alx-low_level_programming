@@ -4,6 +4,7 @@
 /**
  * sum_them_all - sums of all its parameters.
  * @n: number of parameters
+ * @...: A variable number of paramters to calculate the sum of.
  *
  * Return: sum of all parameters
  */
