@@ -1,5 +1,5 @@
 /*
- * Auth:Gitau M John
+ * Auth: Gitau J
  * File: 0-binary_to_uint.c
  */
 
