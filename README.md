@@ -1,29 +1,92 @@
-# Low-Level Programming - Data Structures, Algorithms, Linux/Unix System Programming
+# ALX Low-Level Programming
 
-This repository contains programs written for the low-level programming and
-algorithm track at ALX SE Programme. In these projects, which  occurred
-throughout the duration of the Year 1 curriculum, I learned about data
-structures, algorithms, and other low-level programming concepts while
-working in the C language. The specific list of projects contained follows:
+Welcome to the ALX Low-Level Programming repository! This project is part of the ALX Software Engineering curriculum, focusing on fundamental concepts in C programming and computer science.
 
-* [0x00. C - Hello, World](./0x00-hello_world)
-* [0x01. C - Variables, if, else, while](./0x01-variables_if_else_while)
-* [0x02. C - Functions, nested loops](./0x02-functions_nested_loops)
-* [0x03. C - More functions, more nested loops](./0x03-more_functions_nested_loops)
-* [0x04. C - Pointers, arrays and strings](./0x04-pointers_arrays_strings)
-* [0x05. C - More pointers, arrays and strings](./0x05-pointers_arrays_strings)
-* [0x06. C - Even more pointers, arrays and strings](./0x06-pointers_arrays_strings)
-* [0x07. C - Recursion](./0x07-recursion)
-* [0x08. C - Static libraries](./0x08-static_libraries)
-* [0x09. C - argc, argv](./0x09-argc_argv)
-* [0x0A. C - malloc, free](./0x0A-malloc_free)
-* [0x0B. C - More malloc, free](./0x0B-more_malloc_free)
-* [0x0C. C - Preprocessor](./0x0C-preprocessor)
-* [0x0D. C - Structures, typedef](./0x0D-structures_typedef)
-* [0x0E. C - Function pointers](./0x0E-function_pointers)
-* [0x0F. C - Variadic functions](./0x0F-variadic_functions)
-* [0x10. C - printf](https://github.com/bdbaraban/printf/tree/master)
-* [0x11. C - Singly linked lists](./0x11-singly_linked_lists)
-* [0x12. C - More singly linked lists](./0x12-more_singly_linked_lists)
-* 
-* 
+## Table of Contents
+
+1. [Description](#description)
+2. [Projects](#projects)
+3. [Requirements](#requirements)
+4. [Installation](#installation)
+5. [Usage](#usage)
+6. [Contributing](#contributing)
+7. [License](#license)
+
+## Description
+
+This repository contains a collection of projects and exercises designed to teach low-level programming concepts using the C programming language. The curriculum covers topics such as:
+
+- Basic syntax and data types
+- Control structures
+- Functions and pointers
+- Memory management
+- Data structures (arrays, linked lists, trees, etc.)
+- Algorithms and problem-solving
+- Bit manipulation
+- File I/O
+
+## Projects
+
+Here's a list of the main projects included in this repository:
+
+1. 0x00. C - Hello, World
+2. 0x01. C - Variables, if, else, while
+3. 0x02. C - Functions, nested loops
+4. 0x03. C - Debugging
+5. 0x04. C - More functions, more nested loops
+6. 0x05. C - Pointers, arrays and strings
+7. 0x06. C - More pointers, arrays and strings
+8. 0x07. C - Even more pointers, arrays and strings
+9. 0x08. C - Recursion
+10. 0x09. C - Static libraries
+11. 0x0A. C - argc, argv
+12. 0x0B. C - malloc, free
+13. 0x0C. C - More malloc, free
+14. 0x0D. C - Preprocessor
+15. 0x0E. C - Structures, typedef
+16. 0x0F. C - Function pointers
+17. 0x10. C - Variadic functions
+18. 0x11. C - printf
+19. 0x12. C - singly linked functions
+20. 0x13. C - more singly linked lists
+21. 0x14. C - Bit manipulation
+22. 0x15. C - File io
+23. 
+
+
+## Requirements
+
+- Ubuntu 20.04 LTS
+- gcc compiler (version 9.3.0 or later)
+- Betty style checker
+
+## Installation
+
+1. Clone this repository:
+   ```
+   git clone https://github.com/mwangitau/alx-low-level-programming.git
+   ```
+2. Change into the project directory:
+   ```
+   cd alx-low-level-programming
+   ```
+
+## Usage
+
+Each project directory contains its own set of C files and a README with specific instructions. To compile and run a C program, use the following commands:
+
+```
+gcc -Wall -Werror -Wextra -pedantic file_name.c -o output_file
+./output_file
+```
+
+Replace `file_name.c` with the name of the C file you want to compile and `output_file` with your desired executable name.
+
+## Contributing
+
+This repository is for educational purposes as part of the ALX Software Engineering program.
+
+## License
+
+This project is licensed under the terms of the MIT license. See the [LICENSE](LICENSE) file for details.
+
